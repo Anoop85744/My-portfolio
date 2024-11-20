@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek Kumar - Aspiring Developer</title>
+    <style>
+        body {
+            background: url('https://assets.onecompiler.app/42ykzsz52/42ym3ad5n/01.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        table {
+            width: 100%;
+            height: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            text-align: center;
+            padding: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        a:hover {
+            color: orange;
+        }
+        h1, h2, h3 {
+            margin: 0;
+        }
+        .section-title {
+            font-family: 'Monoton', cursive;
+            font-size: 2rem;
+            color: orange;
+        }
+        .skills, .projects, .contact {
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: left;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea, .contact button {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact button {
+            background-color: orange;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .contact button:hover {
+            background-color: darkorange;
+        }
+        .linkedin-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #0077b5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .linkedin-btn:hover {
+            background-color: #005983;
+        }
+    </style>
+</head>
+<body>
+    <table border="0">
+        <!-- Row 1: Header -->
+        <tr>
+            <th colspan="6">
+                <span class="section-title">AbhishekKumar.in</span>
+                <span style="float:right;">
+                    <a href="#">Home</a> |
+                    <a href="#">About Us</a> |
+                    <a href="#">Contact Us</a>
+                </span>
+            </th>
+        </tr>
+
+        <!-- Row 2: Welcome Message -->
+        <tr>
+            <th colspan="6">
+                <h1>Welcome to My Website</h1>
+                <h2>Abhishek Kumar</h2>
+                <p>Aspiring Developer | Skilled in Java, Python, and C</p>
+            </th>
+        </tr>
+
+        <!-- Row 3: About Section -->
+        <tr>
+            <td colspan="6">
+                <div class="skills">
+                    <h3>About Me</h3>
+                    <p>Hi! I’m Abhishek, a tech enthusiast with a passion for problem-solving and software development. I specialize in programming languages like Java, Python, and C, and I am eager to contribute to impactful projects.</p>
+                </div>
+            </td>
+        </tr>
+
+        <!-- Row 4: Skills Section -->
+        <tr>
+            <td colspan="6">
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li><strong>Java:</strong> Advanced</li>
+                        <li><strong>Python:</strong> Intermediate</li>
+                        <li><strong>C Language:</strong> Intermediate</li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+
+        <!-- Row 5: Projects Section -->
+        <tr>
+            <td colspan="6">
+                <div class="projects">
+                    <h3>Projects</h3>
+                    <ul>
+                        <li><strong>Library Management System (Java):</strong> A console-based system to manage books and users in a library.</li>
+                        <li><strong>Data Analyzer (Python):</strong> A script to process and visualize large datasets.</li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+
+        <!-- Row 6: Contact Section -->
+        <tr>
+            <td colspan="6">
+                <div class="contact">
+                    <h3>Contact Me</h3>
+                    <p>If you’d like to get in touch, feel free to reach out:</p>
+                    <p>Email: <a href="mailto:abhishekk33912@gmail.com">abhishekk33912@gmail.com</a></p>
+                    <form>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                        
+                        <button type="submit">Send Message</button>
+                    </form>
+                    <a href="https://www.linkedin.com/in/abhishek-kumar-82772b2a1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                       class="linkedin-btn" target="_blank">
+                        Visit My LinkedIn
+                    </a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
